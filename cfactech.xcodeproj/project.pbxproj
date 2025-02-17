@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		464B4D132D5AA54100FD6FFB /* JWTDecode in Frameworks */ = {isa = PBXBuildFile; productRef = 464B4D122D5AA54100FD6FFB /* JWTDecode */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		464B4CE52D5A9D9C00FD6FFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 464B4CCC2D5A9D9A00FD6FFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 464B4CD32D5A9D9A00FD6FFB;
+			remoteInfo = cfactech;
+		};
+		464B4CEF2D5A9D9C00FD6FFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 464B4CCC2D5A9D9A00FD6FFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 464B4CD32D5A9D9A00FD6FFB;
+			remoteInfo = cfactech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		464B4CD42D5A9D9A00FD6FFB /* cfactech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cfactech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		464B4CE42D5A9D9C00FD6FFB /* cfactechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cfactechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		464B4CEE2D5A9D9C00FD6FFB /* cfactechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cfactechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		464B4CD62D5A9D9A00FD6FFB /* cfactech */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = cfactech;
+			sourceTree = "<group>";
+		};
+		464B4CE72D5A9D9C00FD6FFB /* cfactechTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = cfactechTests;
+			sourceTree = "<group>";
+		};
+		464B4CF12D5A9D9C00FD6FFB /* cfactechUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = cfactechUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		464B4CD12D5A9D9A00FD6FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464B4D132D5AA54100FD6FFB /* JWTDecode in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464B4CE12D5A9D9C00FD6FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464B4CEB2D5A9D9C00FD6FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		464B4CCB2D5A9D9A00FD6FFB = {
+			isa = PBXGroup;
+			children = (
+				464B4CD62D5A9D9A00FD6FFB /* cfactech */,
+				464B4CE72D5A9D9C00FD6FFB /* cfactechTests */,
+				464B4CF12D5A9D9C00FD6FFB /* cfactechUITests */,
+				464B4CD52D5A9D9A00FD6FFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		464B4CD52D5A9D9A00FD6FFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				464B4CD42D5A9D9A00FD6FFB /* cfactech.app */,
+				464B4CE42D5A9D9C00FD6FFB /* cfactechTests.xctest */,
+				464B4CEE2D5A9D9C00FD6FFB /* cfactechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		464B4CD32D5A9D9A00FD6FFB /* cfactech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464B4CF82D5A9D9C00FD6FFB /* Build configuration list for PBXNativeTarget "cfactech" */;
+			buildPhases = (
+				464B4CD02D5A9D9A00FD6FFB /* Sources */,
+				464B4CD12D5A9D9A00FD6FFB /* Frameworks */,
+				464B4CD22D5A9D9A00FD6FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				464B4CD62D5A9D9A00FD6FFB /* cfactech */,
+			);
+			name = cfactech;
+			packageProductDependencies = (
+				464B4D122D5AA54100FD6FFB /* JWTDecode */,
+			);
+			productName = cfactech;
+			productReference = 464B4CD42D5A9D9A00FD6FFB /* cfactech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		464B4CE32D5A9D9C00FD6FFB /* cfactechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464B4CFB2D5A9D9C00FD6FFB /* Build configuration list for PBXNativeTarget "cfactechTests" */;
+			buildPhases = (
+				464B4CE02D5A9D9C00FD6FFB /* Sources */,
+				464B4CE12D5A9D9C00FD6FFB /* Frameworks */,
+				464B4CE22D5A9D9C00FD6FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				464B4CE62D5A9D9C00FD6FFB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				464B4CE72D5A9D9C00FD6FFB /* cfactechTests */,
+			);
+			name = cfactechTests;
+			packageProductDependencies = (
+			);
+			productName = cfactechTests;
+			productReference = 464B4CE42D5A9D9C00FD6FFB /* cfactechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		464B4CED2D5A9D9C00FD6FFB /* cfactechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464B4CFE2D5A9D9C00FD6FFB /* Build configuration list for PBXNativeTarget "cfactechUITests" */;
+			buildPhases = (
+				464B4CEA2D5A9D9C00FD6FFB /* Sources */,
+				464B4CEB2D5A9D9C00FD6FFB /* Frameworks */,
+				464B4CEC2D5A9D9C00FD6FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				464B4CF02D5A9D9C00FD6FFB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				464B4CF12D5A9D9C00FD6FFB /* cfactechUITests */,
+			);
+			name = cfactechUITests;
+			packageProductDependencies = (
+			);
+			productName = cfactechUITests;
+			productReference = 464B4CEE2D5A9D9C00FD6FFB /* cfactechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		464B4CCC2D5A9D9A00FD6FFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					464B4CD32D5A9D9A00FD6FFB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					464B4CE32D5A9D9C00FD6FFB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 464B4CD32D5A9D9A00FD6FFB;
+					};
+					464B4CED2D5A9D9C00FD6FFB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 464B4CD32D5A9D9A00FD6FFB;
+					};
+				};
+			};
+			buildConfigurationList = 464B4CCF2D5A9D9A00FD6FFB /* Build configuration list for PBXProject "cfactech" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 464B4CCB2D5A9D9A00FD6FFB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				464B4D112D5AA54100FD6FFB /* XCRemoteSwiftPackageReference "JWTDecode.swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 464B4CD52D5A9D9A00FD6FFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				464B4CD32D5A9D9A00FD6FFB /* cfactech */,
+				464B4CE32D5A9D9C00FD6FFB /* cfactechTests */,
+				464B4CED2D5A9D9C00FD6FFB /* cfactechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		464B4CD22D5A9D9A00FD6FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464B4CE22D5A9D9C00FD6FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464B4CEC2D5A9D9C00FD6FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		464B4CD02D5A9D9A00FD6FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464B4CE02D5A9D9C00FD6FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464B4CEA2D5A9D9C00FD6FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		464B4CE62D5A9D9C00FD6FFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 464B4CD32D5A9D9A00FD6FFB /* cfactech */;
+			targetProxy = 464B4CE52D5A9D9C00FD6FFB /* PBXContainerItemProxy */;
+		};
+		464B4CF02D5A9D9C00FD6FFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 464B4CD32D5A9D9A00FD6FFB /* cfactech */;
+			targetProxy = 464B4CEF2D5A9D9C00FD6FFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		464B4CF62D5A9D9C00FD6FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		464B4CF72D5A9D9C00FD6FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		464B4CF92D5A9D9C00FD6FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"cfactech/Preview Content\"";
+				DEVELOPMENT_TEAM = SXNJPUU75Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CFAC: Tech";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.cfautocare.cfactech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		464B4CFA2D5A9D9C00FD6FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"cfactech/Preview Content\"";
+				DEVELOPMENT_TEAM = SXNJPUU75Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CFAC: Tech";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.cfautocare.cfactech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		464B4CFC2D5A9D9C00FD6FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SXNJPUU75Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cleaning-Services.cfactechTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cfactech.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cfactech";
+			};
+			name = Debug;
+		};
+		464B4CFD2D5A9D9C00FD6FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SXNJPUU75Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cleaning-Services.cfactechTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cfactech.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cfactech";
+			};
+			name = Release;
+		};
+		464B4CFF2D5A9D9C00FD6FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SXNJPUU75Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cleaning-Services.cfactechUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cfactech;
+			};
+			name = Debug;
+		};
+		464B4D002D5A9D9C00FD6FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SXNJPUU75Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cleaning-Services.cfactechUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cfactech;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		464B4CCF2D5A9D9A00FD6FFB /* Build configuration list for PBXProject "cfactech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464B4CF62D5A9D9C00FD6FFB /* Debug */,
+				464B4CF72D5A9D9C00FD6FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		464B4CF82D5A9D9C00FD6FFB /* Build configuration list for PBXNativeTarget "cfactech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464B4CF92D5A9D9C00FD6FFB /* Debug */,
+				464B4CFA2D5A9D9C00FD6FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		464B4CFB2D5A9D9C00FD6FFB /* Build configuration list for PBXNativeTarget "cfactechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464B4CFC2D5A9D9C00FD6FFB /* Debug */,
+				464B4CFD2D5A9D9C00FD6FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		464B4CFE2D5A9D9C00FD6FFB /* Build configuration list for PBXNativeTarget "cfactechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464B4CFF2D5A9D9C00FD6FFB /* Debug */,
+				464B4D002D5A9D9C00FD6FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		464B4D112D5AA54100FD6FFB /* XCRemoteSwiftPackageReference "JWTDecode.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/JWTDecode.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		464B4D122D5AA54100FD6FFB /* JWTDecode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 464B4D112D5AA54100FD6FFB /* XCRemoteSwiftPackageReference "JWTDecode.swift" */;
+			productName = JWTDecode;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 464B4CCC2D5A9D9A00FD6FFB /* Project object */;
+}
