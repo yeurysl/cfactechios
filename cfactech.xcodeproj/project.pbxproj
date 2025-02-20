@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		464B4D132D5AA54100FD6FFB /* JWTDecode in Frameworks */ = {isa = PBXBuildFile; productRef = 464B4D122D5AA54100FD6FFB /* JWTDecode */; };
+		46836BC92D641B230016153C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46836BC82D641B230016153C /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		464B4CD42D5A9D9A00FD6FFB /* cfactech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cfactech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		464B4CE42D5A9D9C00FD6FFB /* cfactechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cfactechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		464B4CEE2D5A9D9C00FD6FFB /* cfactechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cfactechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46836BC82D641B230016153C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -57,6 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				464B4D132D5AA54100FD6FFB /* JWTDecode in Frameworks */,
+				46836BC92D641B230016153C /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				464B4CD62D5A9D9A00FD6FFB /* cfactech */,
 				464B4CE72D5A9D9C00FD6FFB /* cfactechTests */,
 				464B4CF12D5A9D9C00FD6FFB /* cfactechUITests */,
+				46836BC72D641B230016153C /* Frameworks */,
 				464B4CD52D5A9D9A00FD6FFB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +99,14 @@
 				464B4CEE2D5A9D9C00FD6FFB /* cfactechUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		46836BC72D641B230016153C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46836BC82D641B230016153C /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,8 +415,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = cfactech/cfactech.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"cfactech/Preview Content\"";
 				DEVELOPMENT_TEAM = SXNJPUU75Q;
 				ENABLE_PREVIEWS = YES;
@@ -420,7 +433,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.11;
 				PRODUCT_BUNDLE_IDENTIFIER = biz.cfautocare.cfactech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -435,8 +448,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = cfactech/cfactech.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"cfactech/Preview Content\"";
 				DEVELOPMENT_TEAM = SXNJPUU75Q;
 				ENABLE_PREVIEWS = YES;
@@ -452,7 +466,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.11;
 				PRODUCT_BUNDLE_IDENTIFIER = biz.cfautocare.cfactech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

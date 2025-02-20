@@ -9,8 +9,12 @@ import SwiftUI
 import Combine
 import Foundation
 
+
 @main
 struct cfactechApp: App {
+    // Integrate your AppDelegate here:
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     @StateObject private var loginManager = LoginManager()
     @StateObject private var techViewModel = TechViewModel() // Create TechViewModel instance
 
@@ -19,7 +23,7 @@ struct cfactechApp: App {
             if loginManager.isLoggedIn {
                 MainView()
                     .environmentObject(loginManager)   // Inject loginManager
-                    .environmentObject(techViewModel)  // Inject techViewModel
+                    .environmentObject(techViewModel)    // Inject techViewModel
             } else {
                 LoginView()
                     .environmentObject(loginManager)   // Inject loginManager
